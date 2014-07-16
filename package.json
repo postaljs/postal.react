@@ -1,0 +1,69 @@
+{
+  "name": "postal.react",
+  "description": "A ReactJS component mixin adding postal.js message bus behaviors to components.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/postaljs/postal.react",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/postaljs/postal.react.git"
+  },
+  "author": "Jim Cowart (http://freshbrewedcode.com/jimcowart)",
+  "contributors": [
+    {
+      "name": "Jim Cowart",
+      "email": "jim@ifandelse.com",
+      "url": "http://freshbrewedcode.com/jimcowart"
+    }
+  ],
+  "keywords": [
+    "react",
+    "postal",
+    "messaging",
+    "mixin",
+    "bus",
+    "publish",
+    "subscribe"
+  ],
+  "bugs": {
+    "email": "jim@ifandelse.com",
+    "url": "http://github.com/postaljs/postal.react/issues"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "lib/postal.react.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "envify": "^1.2.1",
+    "postal": "^0.10.1",
+    "react": "^0.10.0"
+  },
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "express": "~3.4.7",
+    "gulp": "~3.4.0",
+    "gulp-beautify": "~1.0.3",
+    "gulp-header": "~1.0.2",
+    "gulp-hint-not": "~0.0.3",
+    "gulp-plato": "~0.1.0",
+    "gulp-rename": "~0.2.1",
+    "gulp-uglify": "~0.1.0",
+    "gulp-util": "~2.2.12",
+    "mocha": "^1.20.1",
+    "open": "~0.0.4",
+    "should": "^4.0.4"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "scripts": {
+    "test": "mocha ./spec/*.js",
+    "build": "gulp",
+    "start": "gulp server"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "postal.react",
+  "version": "0.0.0",
+  "main": [
+    "lib/postal.react.js"
+  ],
+  "dependencies": {
+    "postal.js": "^0.10.1",
+    "react": "~0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.0"
+  }
+}
